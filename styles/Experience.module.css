@@ -1,0 +1,41 @@
+.heading{
+    text-align: center;
+}
+.subHead{
+    text-align: center;
+    color:rgba(242, 243, 244, 0.584);
+    padding: 0px 10px;
+    margin-top: 10px;
+
+}
+.expreience_company_continer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.firstCompDiv{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+
+
+}
+.exp_date{
+    margin: 0px 10px;
+    font-weight: bold;
+}
+.marginTop{
+    margin-top: 15px;
+}
+@media(max-width:500px){
+.firstCompDiv{
+    width: 280px;
+}
+}
