@@ -43,11 +43,9 @@
 }
 .projectcontent{
     color: rgba(242, 243, 244, 0.584);
-    display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;             
     text-overflow: ellipsis;      
-    -webkit-line-clamp: 4;        
     max-height: 6em;              
     line-height: 1.5em;            
     width: 330px; 
