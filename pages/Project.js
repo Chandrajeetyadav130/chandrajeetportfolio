@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "@/styles/Project.module.css";
 import Link from 'next/link';
+import Image from 'next/image';
 const Project = () => {
   return (
     <section id="project">
@@ -10,7 +11,7 @@ const Project = () => {
       <div className={styles.exprienceMainContainer}>
         {/* firstss */}
         <div className={styles.experienceInnerContainer}>
-          <img src="/weedx.jpeg" alt="" className={styles.expreienceTechImage} />
+        <Image src="/weedx.jpeg" alt="Description" width={500} height={500} className={styles.expreienceTechImage}/>
           <div className={styles.projectSkill}>
             <span>Reactjs</span>
            <span>Html</span>
@@ -28,7 +29,8 @@ const Project = () => {
 
         </div>
         <div className={styles.experienceInnerContainer}>
-          <img src="/technicalblog.jpeg" alt="" className={styles.expreienceTechImage} />
+        <Image src="/technicalblog.jpeg" alt="Description" width={500} height={500} className={styles.expreienceTechImage}/>
+
           <div className={styles.projectSkill}>
             <span>Nextjs</span>
            <span>Html</span>
@@ -49,7 +51,8 @@ const Project = () => {
         {/* second project */}
      
         <div className={styles.experienceInnerContainer}>
-          <img src="/ecommercenextshop.jpeg" alt="" className={styles.expreienceTechImage} />
+        <Image src="/ecommercenextshop.jpeg" alt="Description" width={500} height={500} className={styles.expreienceTechImage}/>
+
           <div className={styles.projectSkill}>
             <span>Nextjs</span>
            <span>Html</span>
