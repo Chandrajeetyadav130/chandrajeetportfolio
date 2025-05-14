@@ -5,7 +5,7 @@ const Skill = () => {
   return (
     <section id="skills" className={styles.Skills}>
     <h2 className={styles.heading}>Skills</h2>
-    <p className={styles.paragraph}>Here are some of my skills on which I have been working on for the past 1.5+ years.</p>
+    <p className={styles.paragraph}>Here are some of my skills on which I have been working on for the past 2.4 years.</p>
     <div>
       <h2>Frontend Development:</h2>
       <ul>
