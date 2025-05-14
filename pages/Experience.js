@@ -8,7 +8,7 @@ const Experience = () => {
       <h3 className={styles.subHead}>My work experience as a software engineer and working on different companies and projects.</h3>
       <div className={styles.expreience_company_continer}>
         <div className={styles.firstCompDiv}>
-          <h5 className={styles.subHead}>Selnox infotech pvt.ltd Bhopal Madhaya Pradesh<span className={styles.exp_date}>02/2023 – 09/2023
+          <h5 className={styles.subHead}>Selnox infotech pvt.ltd Bhopal Madhaya Pradesh<span className={styles.exp_date}>01/04/2024 – 12/05/2025
           </span></h5>
           <p className={styles.subHead}>• Enhanced user experiences on figma Application by resolving bugs & reduced load time by 40%. Building Sigma Application using React Js with seamless interaction of REST APIs using AXIOS optimized with React Redux. Refactored previous code to Javascript.</p>
           <div className={styles.subHead}>
